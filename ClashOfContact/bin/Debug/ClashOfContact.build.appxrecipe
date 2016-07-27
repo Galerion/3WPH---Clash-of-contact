@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GALERION</Machine>
+    <WindowsUser>Gaylerion</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ce0cbad0-dbc7-4c17-8275-63501120ea25</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\ClashOfContact.exe">
+      <PackagePath>ClashOfContact.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\arena.png">
+      <PackagePath>Assets\arena.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\Assets\imageDefaut.jpg">
+      <PackagePath>Assets\imageDefaut.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\UI\AjoutCombattant.xbf">
+      <PackagePath>UI\AjoutCombattant.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\UI\Combat.xbf">
+      <PackagePath>UI\Combat.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\UI\ListeCombattants.xbf">
+      <PackagePath>UI\ListeCombattants.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\UI\MainPage.xbf">
+      <PackagePath>UI\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\UI\Resultat.xbf">
+      <PackagePath>UI\Resultat.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\ClashOfContact.xr.xml">
+      <PackagePath>ClashOfContact.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaylerion\Documents\Visual Studio 2013\Projects\ClashOfContact\ClashOfContact\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

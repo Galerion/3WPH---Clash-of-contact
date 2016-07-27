@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="ClashOfContact.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClashOfContact"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Clash of contacts" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button x:ConnectionId='1' Name="Combat" Content="Lancer un combat" HorizontalAlignment="Center" Grid.Row="1"                     ></Button>
+        <Button x:ConnectionId='2' Name="Combatant" Content="Ajouter un combatant" HorizontalAlignment="Center" Grid.Row="2"                        ></Button>
+        <Button x:ConnectionId='3' Name="Liste" Content="Liste des combattants" HorizontalAlignment="Center" Grid.Row="3"                    ></Button>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='4' x:Name="PinUnpinButton" Icon="Pin" Label="Pin"                             />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+
